@@ -14,3 +14,16 @@ def test_dict_3():
         assert dict_1['name1']
     except KeyError:
         pass
+
+
+set_1 = set('hello')
+
+
+def test_set_1():
+    assert 'l' in set_1
+
+
+
+#if __name__ == '__main__':
+
+
