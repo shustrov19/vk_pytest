@@ -1,8 +1,10 @@
 import pytest
 
-dict1 = {}
+dict_1 = {'name': 'surname'}
 
 
 def test_dict_1():
-    assert dict1['name'], 'Key not in dict'
+    assert dict_1['name']
 
+def test_dict_2():
+    assert len(dict_1) == 1
