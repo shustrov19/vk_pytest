@@ -17,11 +17,14 @@ def test_dict_3():
 
 
 set_1 = set('hello')
+set_2 = set(set_1)
 
 
 def test_set_1():
     assert 'l' in set_1
 
+def test_set_2():
+    assert set_1 <= set_2
 
 
 #if __name__ == '__main__':
