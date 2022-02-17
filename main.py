@@ -1,5 +1,3 @@
-import pytest
-
 dict_1 = {'name': 'surname'}
 
 
@@ -26,13 +24,14 @@ def test_set_1():
 def test_set_2():
     assert set_1 <= set_2
 
+
 a = ['a', 'b', 'c', 'd']
 b = set(a)
+
 
 def test_set_3():
     assert a != b
 
 
-#if __name__ == '__main__':
 
 
